@@ -628,9 +628,9 @@ static size_t saveLumaIniConfigToStr(char *out)
     }
 
     if (VERSION_BUILD != 0) {
-        sprintf(lumaVerStr, "Luma3DS v%d.%d.%d", (int)VERSION_MAJOR, (int)VERSION_MINOR, (int)VERSION_BUILD);
+        sprintf(lumaVerStr, "BwahFW v%d.%d.%d", (int)VERSION_MAJOR, (int)VERSION_MINOR, (int)VERSION_BUILD);
     } else {
-        sprintf(lumaVerStr, "Luma3DS v%d.%d", (int)VERSION_MAJOR, (int)VERSION_MINOR);
+        sprintf(lumaVerStr, "BwahFW v%d.%d", (int)VERSION_MAJOR, (int)VERSION_MINOR);
     }
 
     if (ISRELEASE) {
